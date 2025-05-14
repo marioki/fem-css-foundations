@@ -1,0 +1,54 @@
+@import url(base.css);
+
+
+
+.menu path {
+    fill: var(--color-text-on-primary);
+}
+
+
+.close path {
+    fill: var(--color-text-on-primary);
+}
+
+.home .main__heading {
+    margin-bottom: 0;
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.home .main__subHeading {
+    font-size: 40px;
+    margin-top: auto;
+}
+
+@media (max-width:1200px) {
+    .home .main__heading {
+        font-size: 70px;
+        padding: 50px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .home .main__heading {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    .home .main__subHeading {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .home .main__heading {
+        font-size: 32px;
+        padding: 0;
+    }
+
+    .home .main__subHeading {
+        font-size: 18px;
+    }
+}
